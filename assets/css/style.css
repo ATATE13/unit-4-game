@@ -1,0 +1,73 @@
+body {
+    background-image: url("../images/crystal-background2.jpg");
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .jumbotron {
+    background-color: teal;
+    color: beige;
+    margin: 40px;
+    padding: 20px;
+  }
+  
+  .panel-body {
+    background-color: beige;
+    color: teal;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .panel-title {
+    color: beige;
+  }
+
+  .target-number {
+    font-size: 30px;
+    background-color: goldenrod;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 4px;
+    color: black;
+  }
+  
+  
+  .win-lose-counter {
+    background-color: rgb(150, 33, 72);
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 4px;
+    color: white;
+  }
+  
+  
+  .crystal-images {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .total-score {
+    color: white;
+    background-color: teal;
+  }
+  
+  
+  .score-number {
+    color: white;
+    background-color: teal ;
+    font-size: 30px;
+    border-style: dotted;
+    border-color: beige;
+  }
+
+  footer {
+    background-color: teal;
+    color: beige;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+  }
+  
