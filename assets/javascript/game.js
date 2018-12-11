@@ -13,6 +13,7 @@ $(document).on("click", ".crystal", crystalClick);
 
 	function randomTargetNumber () {
 		targetNumber = Math.floor(Math.random() * 102) + 19;
+		console.log(targetNumber);
 	}
 
 	function crystalClick () {
@@ -36,6 +37,7 @@ $(document).on("click", ".crystal", crystalClick);
 			crystal.attr("value", (Math.floor(Math.random() * 12) + 1));
 			crystal.attr("height", "100");
 			$(".crystal-images").append(crystal);
+			console.log("value", (Math.floor(Math.random() * 12) + 1));
 		}
 	}
 
@@ -54,7 +56,6 @@ $(document).on("click", ".crystal", crystalClick);
 		resetHTML ();
 		resetCrystals ();
 	}
-
 
 	randomTargetNumber();
 	resetHTML ();
