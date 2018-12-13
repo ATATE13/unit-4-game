@@ -1,10 +1,10 @@
 Crystal Collector Game:
 
 1. Create Crystal Collector Game Layout:
-	- Title of Game
-	- Rules of the Game Below
-	- Actual Game Display Follows:
-		- Random Number Target Score
+	- Game title
+	- Game rules
+	- Game display:
+		- Random number target score
 		- Wins/Losses tracker
 		- Four crystal image options
 		- Your total score section

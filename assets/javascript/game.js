@@ -34,10 +34,10 @@ $(document).on("click", ".crystal", crystalClick);
 			var crystal = $("<img>");
 			crystal.addClass("crystal");
 			crystal.attr("src", images[i]);
-			crystal.attr("value", (Math.floor(Math.random() * 12) + 1));
+			crystal.attr("value", (Math.floor(Math.random() * 12) + 2));
 			crystal.attr("height", "100");
 			$(".crystal-images").append(crystal);
-			console.log("value", (Math.floor(Math.random() * 12) + 1));
+			console.log("value", (Math.floor(Math.random() * 12) + 2));
 		}
 	}
 
